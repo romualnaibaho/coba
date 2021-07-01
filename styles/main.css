@@ -1,0 +1,289 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    background-color: rgb(24, 24, 28);
+}
+
+hr{
+    border-color: rgba(255, 255, 255, 0.035);
+    margin-top: 140px;
+}
+
+.bg-trans {
+    background-color: transparent;
+}
+
+.navbar-brand{
+    max-height: 40px;
+}
+
+.navbar-collapse{
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav-item .active{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: white !important;
+}
+
+.nav-item .active:hover{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: white !important;
+}
+  
+.nav-link{
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(215, 215, 216) !important;
+}
+
+.nav-link:hover{
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(255, 255, 255) !important;
+}
+
+header {
+    background-image: url("../images/header.png");
+    height: 768px;
+    margin-top: -70px;
+    background-size: cover;
+}
+
+.header{
+    padding-top: 10%;
+}
+
+.header .title{
+    font-family: 'Bree Serif', serif;
+    font-size: 50px;
+    color: beige;
+    padding-top: 15%;
+}
+
+.header .desc{
+    font-family: 'Sarabun', sans-serif;
+    font-size: 22px;
+    color: beige;
+}
+
+.header .quote{
+    font-family: 'Sarabun', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: beige;
+}
+
+.cards{
+    background-color: rgba(0, 0, 0, 0.303);
+    color: white;
+    width: 50px;
+    margin-top: 185px;
+    border-radius: 40px 0px 40px 0px;
+}
+
+.cardss{
+    background-color: transparent;
+    border-color: transparent;
+    padding: 10px 0px 0px 0px;
+}
+
+.about{
+    margin-top: 100px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 34px;
+    color: rgb(206, 202, 202);
+}
+
+.about .comp{
+    color: #78B8D1;
+}
+
+.about-one .title{
+    font-family: 'Bree Serif', serif;
+    color: white;
+    font-size: 30px;
+    padding: 0px 50px 0px 50px;
+}
+
+.about-one .desc{
+    font-weight: 200;
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    padding: 0px 50px 0px 50px;
+}
+
+.about-text{
+    margin-top: 100px;
+}
+
+.features{
+    margin-top: 50px;
+}
+
+.features .title{
+    margin: 100px 0px 50px 0px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 34px;
+    color: rgb(206, 202, 202);
+}
+
+.feature{
+    background-size: cover;
+    border-radius: 20px;
+    height: 413px;
+    margin: 0px 10px 0px 10px;
+}
+
+.feature:hover{
+    background-size: cover;
+    border-radius: 20px;
+    height: 413px;
+    margin: -30px 10px 0px 10px;
+}
+
+.feature h3{
+    color: white !important;
+    padding-top: 70px;
+}
+
+.testimonials{
+    margin-top: 80px;
+}
+
+.testimonials .spand{
+    font-family: 'Bree Serif', serif;
+    font-size: 34px;
+    color: #78B8D1;
+    margin-bottom: 40px;
+}
+
+.testimonial{
+    background-color: rgba(255, 255, 255, 0.193);
+    border-radius: 0px 30px 30px 30px;
+    height: 400px;
+    margin: 0px 10px 0px 7px;
+    color: white;
+}
+
+.testimonial:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 30px 30px 30px;
+    height: 400px;
+    margin: -30px 10px 0px 7px;
+    color: black;
+}
+
+.testimonial hr{
+    border-color: black;
+    margin-top: 10px;
+}
+
+.testi img{
+    margin-top: 10px ;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.testi .nama{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contact{
+    color: white;
+}
+
+.contact .form-control{
+    background-color: rgba(245, 245, 220, 0.083);
+    color: white;
+    margin-top: 10px;
+}
+
+.contact .form-control:hover{
+    background-color: rgba(245, 245, 220, 0.083);
+    border-color: #78B8D1;
+    margin-top: 10px;
+}
+
+.contact .input-group-text{
+    margin-top: 10px;
+    background-color: rgba(123, 123, 123, 0.665);
+    color: white;
+}
+
+.contact .btn-primary{
+    margin-top: 10px;
+    background-color: #78B8D1;
+    color: white !important;
+    float: right;
+}
+
+.contact .btn-primary:hover{
+    margin-top: 10px;
+    background-color: #30a6d5;
+    color: white !important;
+    float: right;
+}
+
+.address .company{
+    color: white;
+    font-size: 26px;
+}
+
+.address .company-add{
+    color: white;
+    font-size: 15px;
+}
+
+.contact .field{
+    background-color: rgba(250, 235, 215, 0.076);
+    border-color: #78B8D1;
+    margin-top: 8px 0px 8px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: rgb(16, 16, 19);
+}
+
+footer .logo{
+    padding-top: 30px;
+}
+
+footer .logo img:hover{
+    src: url("../images/logo_7chances_blue.png");
+}
+
+footer hr{
+    margin-top: 50px;
+}
+
+.footer-desc .footer-feath{
+    margin: 30px 0px 0px 0px;
+}
+
+.footer-desc .footer-feath p{
+    padding-left: 65px;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-desc .footer-feath a{
+    padding-left: 65px;
+    color: rgba(221, 216, 216, 0.727);
+}
+
+.footer-desc .footer-feath a:hover{
+    color: #78B8D1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer .copyright{
+    padding: 20px 0px 40px 0px;
+}
